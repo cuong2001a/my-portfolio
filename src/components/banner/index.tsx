@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import Avatar from "../../public/assets/images.jpg"
 import BackGround from "../../public/assets/fptpoly.jpg"
@@ -26,9 +25,9 @@ function Banner() {
           <div className="text-center h-full flex items-center flex-col justify-center p-5">
             <Image src={Avatar} alt={"avatar"} width={200} height={200} className="mx-auto rounded-lg border border-[#dee2e6] p-2 bg-white" />
             <div className="">
-              <h3 className="text-white text-3xl font-semibold mt-3">Hi, I'm Cuong</h3>
+              <h3 className="text-white text-3xl font-semibold mt-3">{`Hi, I'm Cuong`}</h3>
               <p className="text-white text-lg font-semibold mt-3">{`(Ngo Viet Cuong)`}</p>
-              <p className="text-white text-lg font-semibold mt-3">I'm frontend developer</p>
+              <p className="text-white text-lg font-semibold mt-3">{`I'm frontend developer`}</p>
               <ul className="flex justify-center flex-row justify-between items-center text-center mt-3">
                 {icons?.map(({href,icon})=> {
                   return (
