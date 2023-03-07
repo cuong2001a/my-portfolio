@@ -1,5 +1,7 @@
 import About from "@/components/about"
 import Banner from "@/components/banner"
+import Education from "@/components/education"
+import Experience from "@/components/experience"
 import HeaderComponent from "@/components/layout/Header"
 import Skill from "@/components/skill"
 
@@ -10,7 +12,9 @@ export default function Home() {
         <HeaderComponent />
         <Banner />
         <About />
+        <Education/>
         <Skill />
+        <Experience/>
       </div>
     </>
   )

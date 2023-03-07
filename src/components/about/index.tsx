@@ -30,7 +30,7 @@ function About() {
     <>
       <div className="my-12 grid grid-cols-2 gap-8">
         <div className="introduce">
-          <h3 className="text-3xl font-medium mb-4">About me</h3>
+          <h3 className="text-2xl font-medium mb-4">About me</h3>
           <p className="leading-7 font-normal">
             Hello, my name is Viet Cuong and I am a skilled frontend developer with experience in building dynamic and
             responsive web applications. I am proficient in HTML, CSS, JavaScript, and other modern web development
@@ -38,7 +38,7 @@ function About() {
           </p>
         </div>
         <div className="information">
-          <h3 className="text-3xl font-medium mb-4">Bio</h3>
+          <h3 className="text-2xl font-medium mb-4">Bio</h3>
           {infomations?.map(({icon, title, value}) => {
             return (
               <>
